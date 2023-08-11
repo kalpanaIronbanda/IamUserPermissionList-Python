@@ -6,10 +6,6 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-# def get_user_policies(iam_username):
-#     # Replace 'your_access_key' and 'your_secret_key' with your AWS access key and secret key
-#     aws_access_key = 'AKIAUSW6SE2F2VSFRCN6'
-#     aws_secret_key = 'cpXUgKeUAUZXHn9/3olhaE4iSbVfJUFmNspj3Kz3'
 dotenv.load_dotenv()
 
 def get_user_policies(iam_username):
